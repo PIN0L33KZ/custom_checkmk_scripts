@@ -17,7 +17,7 @@ def check_pihole_services():
         "pihole-FTL", 
         "systemd-timesyncd", 
         "dhclient", 
-        "apache2" #Change to nginx if necessary.
+        "apache2" #Change to nginx/lighttpd if necessary.
     ]
     display_names = [
         "DNS resolver",
