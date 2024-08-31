@@ -74,6 +74,17 @@ chmod +x /path/to/your/script.py
 
 ------------
 
+#### [check_duc_client.py](https://github.com/PIN0L33KZ/custom_checkmk_scripts/blob/main/Linux%20Hosts/check_duc_client.py "check_duc_client.py")
+- **Description:** Checks if the NoIP-DUC process is running.
+- **Use Case:** Ensures the NoIP IP-Address will always be up-to-date.
+- **How:** Linux command: ```pgrep```
+- **Response OK:** <span style="color:#1dd1a1">```0 - DUC - /usr/bin/noip-duc is running```</span>
+- **Response CRIT:** <span style="color:#ee5253">```2 - DUC - /usr/bin/noip-duc is not running```</span>
+
+------------
+
+------------
+
 #### [check_doorbell.py](https://github.com/PIN0L33KZ/custom_checkmk_scripts/blob/main/Linux%20Hosts/check_doorbell.py "check_doorbell.py")
 - **Description:** Monitors Ring™ doorbell's status.
 - **Use Case:** Integrates smart home devices with CheckMK.
